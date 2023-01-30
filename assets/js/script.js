@@ -3,7 +3,7 @@ localStorage.clear();
 function findCity() {
     var cityName = titleCase($("#cityName")[0].value.trim());
 
-    var apiURL = "https://api.openweathermap.org/data/3.0/weather?q=" + cityName + "&units=imperial&appid=6ef7cb100804fae28a742e585a38cf52";
+    var apiURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=imperial&appid=b1fd7c330344974ce1ab0777ba3d545e";
 
     fetch(apiURL).then(function (response) {
         if (response.ok) {
@@ -20,7 +20,7 @@ function findCity() {
 
                 localStorage.setItem(cityName, latLonPair);
 
-                apiURL = "https://api.openweathermap.org/data/3.0/onecall?lat=" + lat + "&lon=" + lon + "&exclude=minutely,hourly&units=imperial&appid=6ef7cb100804fae28a742e585a38cf52";
+                apiURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&exclude=minutely,hourly&units=imperial&appid=b1fd7c330344974ce1ab0777ba3d545e";
                 
                 fetch(apiURL).then(function (newResponse) {
                     if (newResponse.ok) {
@@ -38,7 +38,7 @@ function findCity() {
 
 // This function gets the info for a city already in the list. It does not need to check whether the city exists as it was already checked when the city was first searched for.
 function getListCity(coordinates) {
-    apiURL = "https://api.openweathermap.org/data/3.0/onecall?lat=" + coordinates[0] + "&lon=" + coordinates[1] + "&exclude=minutely,hourly&units=imperial&appid=6ef7cb100804fae28a742e585a38cf52";
+    apiURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + coordinates[0] + "&lon=" + coordinates[1] + "&exclude=minutely,hourly&units=imperial&appid=6ef7cb100804fae28a742e585a38cf52";
 
     fetch(apiURL).then(function (response) {
         if (response.ok) {
