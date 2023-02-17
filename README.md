@@ -1,52 +1,50 @@
-# Weather Dashboard APP
+# Server-Side APIs: Weather Dashboard App
+
+## Description
+A simple web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users previously looked up will be saved in their local storage.
+
+## User Story
+```
+- AS A traveler
+- I WANT to see the weather outlook for multiple cities
+- SO THAT I can plan a trip accordingly
+```
+
+## Acceptance Criteria
+```
+- GIVEN a weather dashboard with form inputs
+- WHEN I search for a city
+- THEN I am presented with current and future conditions for that city and that city is added to the search history
+- WHEN I view current weather conditions for that city
+- THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+- WHEN I view the UV index
+- THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+- WHEN I view future weather conditions for that city
+- THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
+- WHEN I click on a city in the search history
+- THEN I am again presented with current and future conditions for that city
+```
+
+## Usage
+- This weather dashboard allows users to search for a city to get the current weather and 5 day forecast.
+- It will display the the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index.
+- The UV index will be color coded. Whether the conditions are favorable, moderate, or severe.
+- With a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity.
+- Search history will be saved in local storage.
+- This weather daskboard app is mobile compatible.
+
+## Technologies Use
+<p><a href="https://openweathermap.org/">OpenWeather API</a></p>
+<p><a href="https://getbootstrap.com/">Bootstrap</a></p>
 
 <br>
-
- ## Author: Phil Davis
- ## Date: 24 January, 2023
- ## Description: Weather Dashboard APP 
-
-<br>
-<br>
-
-
-<br>
-
-## description
-
-***
- This Project involved creating a dashboard that provides weather conditions for cities. The user can enter a city name and it will search for and match the closest city with that name. It will provide current conditions in addition to a 5-day forecast. If it cannot find the city, it will alert the user. It will store the city in a list on the left side and as the user searches for more cities, they will be added to the list. The user is able to click cities that appear on the list to switch between them.<br>
-<br>
-<br>
-
-## acceptance criteria
-
-***
-
-The codebase achieves the following criteria:<br>
-
-* GIVEN I am using a daily planner to create a schedule:<br>
-* WHEN I open the planner; THEN the current day is displayed at the top of the calendar<br>
-* WHEN I scroll down; THEN I am presented with timeblocks for standard business hours<br>
-* WHEN I view the timeblocks for that day; THEN each timeblock is color coded to indicate whether it is in the past, present, or future<br>
-* WHEN I click into a timeblock; THEN I can enter an event<br>
-* WHEN I click the save button for that timeblock; THEN the text for that event is saved in local storage<br>
-* WHEN I refresh the page; THEN the saved events persist<br>
-
-<br>
-<br>
-
 ## Accessing the site
-Please visit the [site](https://phil13131.github.io/M7_Daily_Planner_APP/) hosted on GitHub Pages.
+Please visit the [site](https://phil13131.github.io/M8_Weather Dashboard APP) hosted on GitHub Pages.
 
 ## Screenshots
-![Screenshot 1](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_9.png)
-![Screenshot 2](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_10.png)
-![Screenshot 3](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_11.png)
-![Screenshot 4](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_12.png)
-![Screenshot 5](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_13.png)
-![Screenshot 6](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_14.png)
-![Screenshot 7](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_15.png)
+![Screenshot 1](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_1.png)
+![Screenshot 2](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_2.png)
+
 
 <br>
 
@@ -79,10 +77,3 @@ These notes and links are listing some valuable references among others that I u
 [https://www.screencastify.com/](https://www.screencastify.com/)
 
 <br>
-
-## credits
-
-<br>
-
-
-***

@@ -1,0 +1,59 @@
+/* * {
+  border: pink solid 1px;
+} */
+
+body {
+  background-color: #098e59;
+  color: #e8a010;
+}
+
+main {
+  height: 100vh;
+  border-top: #e29209 solid 1px;
+}
+
+.main-row {
+  height: 100%;
+}
+
+/* Search Column */
+.search-column {
+  border-right: #e29209 solid 1px;
+}
+
+/* Search */
+
+#search {
+  background-color: #e8a010; 
+  border: #e8a010 solid 1px;
+  color: #070600;
+}
+
+/* Search Results */
+.past {
+  background-color: #e8a010; 
+  border: #159720 solid 1px;
+}
+
+/* Reports */
+
+.report {
+  height: 33.3%;
+}
+
+/* Todays Weather */
+
+.card {
+  background-color: #554444; 
+  border: #b56a0e solid 1px;
+  width: 100%;
+}
+
+
+
+/* Five Day */
+
+.card-img {
+  height: 100px;
+  width: auto;
+}
