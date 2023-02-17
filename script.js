@@ -175,7 +175,7 @@ $(document).ready(function () {
       savedCities = storedCities;
       renderCities();
     } else {
-      city = "San Diego"
+      city = "Sheffield"
       checkPast();
     }
   }
@@ -193,7 +193,7 @@ $(document).ready(function () {
     localStorage.clear();
     savedCities = [];
     $("#past-searches").empty();
-    city = "San Diego";
+    city = "Sheffield";
     init();
   })
 
