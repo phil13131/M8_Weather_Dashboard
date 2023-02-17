@@ -39,11 +39,11 @@ A simple web application that allows users to search for a city to get the curre
 
 <br>
 ## Accessing the site
-Please visit the [site](https://phil13131.github.io/M8_Weather Dashboard APP) hosted on GitHub Pages.
+Please visit the [site](https://phil13131.github.io/M8_Weather_Dashboard_APP) hosted on GitHub Pages.
 
 ## Screenshots
-![Screenshot 1](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_1.png)
-![Screenshot 2](https://github.com/phil13131/M7_Daily_Planner_App/blob/main/Screenshot_2.png)
+![Screenshot 1](https://github.com/phil13131/M8_Weather_Dashboard_APP/blob/main/Screenshot_1.png)
+![Screenshot 2](https://github.com/phil13131/M8_Weather_Dashboard_APP/blob/main/Screenshot_2.png)
 
 
 <br>
